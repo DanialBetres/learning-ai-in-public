@@ -6,9 +6,9 @@ If you're an engineer who feels behind on the AI wave, this is for you. No prete
 
 ## Entries
 
-| Day | Title | Date |
-|-----|-------|------|
-| [Day 0](entries/day-000.md) | Why I'm Doing This | 2026-02-06 |
+| Entry | Title | Date |
+|-------|-------|------|
+| [Entry 0](entries/entry-000.md) | Why I'm Doing This | 2026-02-06 |
 
 ## About
 

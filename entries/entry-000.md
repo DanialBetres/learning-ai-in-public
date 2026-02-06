@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Day 0: Why I'm Doing This"
+title: "Entry 0: Why I'm Doing This"
 date: 2026-02-06
 ---
 
-# Day 0: Why I'm Doing This
+# Entry 0: Why I'm Doing This
 
 **Date:** 2026-02-06
 **TL;DR:** I'm committing to being AI-first as a developer and documenting the entire journey from the start — the good, the bad, and the embarrassing.
