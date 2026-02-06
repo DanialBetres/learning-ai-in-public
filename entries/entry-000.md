@@ -35,13 +35,13 @@ No polishing, no pretending I knew things before I did. Just honest notes from a
 
 ## Where I'm Starting From
 
-I'm a software engineer. My day-to-day stack is TypeScript, React Native, React, and Ruby on Rails. I've been using AI tools casually:
+I'm a software engineer. I haven't been completely ignoring AI — I've been using it for about a year now — but I know I've been playing it safe.
 
-- ChatGPT for questions and brainstorming
-- Copilot for autocomplete
-- Claude Code (recently) for coding tasks in the terminal
+My main setup has been **Cursor** with the chat window pinned to the side. That's been my go-to: I'd ask it questions, have it suggest improvements, help me think through problems. It was like having a slightly smarter rubber duck that could actually write code. I also started using Cursor's **plan mode**, where you describe what you want and it maps out the changes before making them. I had some real success with that — it felt like a step up from just chatting back and forth.
 
-But I wouldn't call myself proficient with any of them. I use them the way I used Stack Overflow in 2015 — as a crutch, not a tool I actually understand.
+But here's the thing: almost all of my interaction with AI has been in the form of a chatbot sitting next to my editor. That's it. That's been my ceiling.
+
+Meanwhile, I keep seeing engineers talk about how **Claude Code** has transformed their throughput — how working with an AI agent in the terminal has almost revolutionized programming for them. Not just answering questions, but actually driving the work. And I realized that if I wanted to see the kind of productivity gains other people are reporting, I needed to move beyond the comfortable Cursor-with-a-chatbot setup and actually go deeper.
 
 Today I'm changing that. I'm committing to being **AI-first**, meaning: before I do something the old way, I'll try the AI way first. If it's faster, great. If it's not, I'll document why.
 
