@@ -14,6 +14,7 @@ If you're an engineer who feels behind on the AI wave, this is for you. No prete
 | Entry | Title | Date |
 |-------|-------|------|
 | [Entry 0](entries/entry-000) | Why I'm Doing This | 2026-02-06 |
+| [Entry 1](entries/entry-001) | Setting Up Claude Code | 2026-02-06 |
 
 ## About
 
