@@ -1,0 +1,12 @@
+title: Learning AI in Public
+description: A developer's honest diary of going AI-first. Starting from the basics, learning in public, and documenting every win, mistake, and "aha" moment along the way.
+baseurl: /learning-ai-in-public
+url: https://danialbetres.github.io
+
+theme: minima
+
+author:
+  name: Danial Betres
+  linkedin: https://www.linkedin.com/in/danbet/
+
+header_pages: []
