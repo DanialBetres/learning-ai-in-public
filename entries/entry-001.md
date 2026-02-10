@@ -34,7 +34,7 @@ The docs recommend running `/init` first. This analyzes your codebase and genera
 
 Here's what it generated for this project:
 
-<details>
+<details markdown="1">
 <summary>Initial CLAUDE.md</summary>
 
 ```markdown
@@ -52,7 +52,6 @@ This is a public learning journal - a developer's diary of going AI-first - host
 - `index.md` - GitHub Pages home page (Jekyll layout: default)
 - `README.md` - GitHub repo landing page
 - `_config.yml` - Jekyll configuration
-- `IDEAS.md` - Scratch file for future entry topics
 
 ## Adding a New Entry
 
