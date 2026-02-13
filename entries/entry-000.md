@@ -16,7 +16,7 @@ date: 2026-02-06
 
 My company has a Slack channel called `dev-ai-guild`. Engineers in there are talking about custom MCP servers, agent workflows, prompt engineering - and every time I read those messages, I feel a little more behind.
 
-I'm not alone. A lot of engineers use AI - ChatGPT for quick questions, Cursor for autocomplete - but know they're barely scratching the surface. When the only voices in the room are experts, everyone else stays quiet.
+I'm not alone. A lot of engineers use AI - ChatGPT for quick questions, Cursor for autocomplete - but know they're barely scratching the surface.
 
 ## Where I'm Starting From
 
