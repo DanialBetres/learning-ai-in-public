@@ -13,3 +13,4 @@ An honest diary of going AI-first as a developer. Starting from the basics and d
 |-------|-------|------|
 | [Entry 0](entries/entry-000) | Why I'm Doing This | 2026-02-06 |
 | [Entry 1](entries/entry-001) | Setting Up Claude Code | 2026-02-06 |
+| [Entry 2](entries/entry-002) | Context Is Everything | 2026-02-13 |

@@ -87,7 +87,7 @@ My recommendation: don't try to build something right away. Just ask questions a
 
 At the surface, it feels like a similar experience to Cursor - Ghostty alongside my IDE, just another chat window.
 
-![My desktop view - VS Code with entry-001 open alongside Claude Code in the terminal](../images/desktopview.png)
+![My desktop view - VS Code with entry-001 open alongside Claude Code in the terminal](../images/desktop_view.png)
 
 But after spending more time with it, a few things stood out:
 
