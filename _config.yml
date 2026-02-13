@@ -9,4 +9,5 @@ author:
   name: Danial Betres
   linkedin: https://www.linkedin.com/in/danbet/
 
-header_pages: []
+header_pages:
+  - index.md
