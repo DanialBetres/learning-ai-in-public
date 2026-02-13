@@ -16,8 +16,6 @@ date: 2026-02-13
 
 Out of the box, Claude Code can read your files, run bash commands, and search your codebase. That's useful, but your work doesn't live entirely in your terminal. Tickets are in Linear. Code reviews are in GitLab. Conversations are in Slack. Without a way to reach those systems, Claude is stuck in a silo.
 
-You could work around this. Give Claude an API key, tell it about the endpoints, and let it curl its way through. It would technically work - but Claude has to guess at endpoints, build requests from scratch every time, and you're trusting it to handle your credentials correctly. It's fragile and ad-hoc.
-
 ## What MCP Is
 
 MCP stands for Model Context Protocol. It's a standard for connecting AI agents to external tools and data sources. You configure an MCP "server" - a small program that exposes specific capabilities - and Claude can call those capabilities as tools.
@@ -65,8 +63,6 @@ When starting work on a ticket, always pull the full details from Linear first.
 When opening a PR, check GitLab for related MRs on the same branch.
 ```
 
-This turns MCPs from "things you manually ask for" into "things that happen automatically as part of how you work." Claude follows these instructions every session without you repeating yourself.
-
 You can also chain tools together in a single prompt: "Pick up CORE-1294, read the full ticket, create a branch, and update the status to In Progress." That's Linear + git + Linear again, all from one ask.
 
 MCPs can also be used within skills - we'll look at those in a future entry.
@@ -75,7 +71,6 @@ MCPs can also be used within skills - we'll look at those in a future entry.
 
 - **Security matters.** Installing an MCP server gives Claude access to whatever that server exposes. A database server with write access means Claude can modify data. A Slack server means Claude can send messages as you. Be intentional.
 - **They run per-session.** MCP servers spin up when you start Claude Code and shut down when you exit. Nothing running in the background.
-- **The ecosystem is growing fast.** A lot of the major developer tools already have MCP servers. If something doesn't have one today, check again in a month.
 
 ---
 
