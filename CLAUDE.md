@@ -26,6 +26,5 @@ The company (Fullscript) has a Homebrew cask (`fullscript/tools/fullscript-claud
 
 ## Writing Style
 
-- Use short dashes (-) instead of em dashes. Never use the long dash character.
 - Tone is casual, honest, first-person. Not a tutorial - it's a personal journal.
 - Keep entries concise and to the point. Trim filler and redundancy - readers should never feel like skipping paragraphs.
