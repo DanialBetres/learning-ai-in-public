@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a public learning journal - a developer's diary of going AI-first - hosted as a Jekyll site on GitHub Pages using the minima theme. The site lives at https://danialbetres.github.io/learning-ai-in-public.
+This is a learning journal - a developer's diary of going AI-first - hosted as a Jekyll site on GitHub Pages using the minima theme. The audience is Fullscript engineers - assume the reader works at Fullscript. Some entries reference internal tooling.
 
 ## Site Structure
 
@@ -19,6 +19,10 @@ This is a public learning journal - a developer's diary of going AI-first - host
 2. Follow the existing entry format: H1 title, **Date** and **TL;DR** lines, `---` separator, then content sections
 3. End each entry with the standard footer: `[Back to Index](../)`
 4. Add the entry to the table in **both** `index.md` (link without `.md` extension) and `README.md` (link with `.md` extension)
+
+## Internal Tooling Context
+
+The company (Fullscript) has a Homebrew cask (`fullscript/tools/fullscript-claude-code`) that automates Claude Code setup with AWS Bedrock. It handles AWS SSO auth via `rx`, creates per-user inference profiles (Opus 4.6, Sonnet 4.5, Haiku 4.5), and generates env/settings config. Install: `brew install --cask fullscript/tools/fullscript-claude-code`.
 
 ## Writing Style
 

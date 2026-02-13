@@ -20,17 +20,29 @@ I don't think there is a single right answer, but I had to start somewhere. I we
 
 ## Installing Claude Code
 
-Followed the [official install instructions](https://code.claude.com/docs/en/overview#native-install-recommended). It's a one-liner:
+There's a cask that handles everything - Claude Code install, AWS Bedrock config, inference profiles, the works:
+
+```bash
+brew install --cask fullscript/tools/fullscript-claude-code
+```
+
+What does the cask actually do? It sets up Claude Code to run through AWS Bedrock instead of hitting the Anthropic API directly. Bedrock is AWS's managed service for accessing AI models - same Claude models, but routed through our AWS account. This gives the company centralized billing and per-engineer usage tracking via inference profiles tagged to your username. The cask handles `rx sso login` for AWS auth, creates your inference profiles, and generates the env config that points Claude Code at Bedrock.
+
+Start a new terminal, `cd` into your project, and run `claude`. That's it.
+
+For personal projects outside of Fullscript, you can install Claude Code directly with the [official install instructions](https://code.claude.com/docs/en/overview#native-install-recommended):
 
 ```bash
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-Then just `cd` into your project and run `claude`. That's it - you're in.
+Then `cd` into your project and run `claude`. You'll be prompted to log in with a Claude subscription or Anthropic Console account on first use.
 
 ## First Step: /init
 
 The docs recommend running `/init` first. This analyzes your codebase and generates a `CLAUDE.md` file - a special file Claude reads at the start of every conversation. Think of it as persistent instructions: code style preferences, how to run tests, workflow rules, anything Claude can't infer on its own.
+
+If you're working in `hw_admin`, you can skip this - it already has a CLAUDE.md checked into source control.
 
 Here's what it generated for this project:
 
