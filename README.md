@@ -10,3 +10,4 @@ An honest diary of going AI-first as a developer. Starting from the basics and d
 | [Entry 1](entries/entry-001.md) | Setting Up Claude Code | 2026-02-06 |
 | [Entry 2](entries/entry-002.md) | Context Is Everything | 2026-02-13 |
 | [Entry 3](entries/entry-003.md) | MCPs - Giving Your Agent Hands | 2026-02-13 |
+| [Entry 4](entries/entry-004.md) | Superpowers - A Workflow That Actually Works | 2026-02-13 |
