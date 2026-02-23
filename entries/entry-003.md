@@ -50,8 +50,6 @@ Once you approve, you're good to go.
 
 Our [engineering docs](https://engineering-docs.fullscript.cloud/Guides/mcps/) also have instructions for installing MCPs within Claude Code and other agentic tools if you prefer that approach.
 
-If nothing exists for an internal tool, you can build one. The TypeScript and Python SDKs make it straightforward - define your tools, write handlers that call your API, done.
-
 ## How to Actually Use Them
 
 The main way is just natural prompting. Say what you want and Claude picks the right tool. You don't need to name the MCP or know the tool's function signature.
@@ -60,7 +58,7 @@ You can also put instructions in your `CLAUDE.local.md` to have Claude use MCPs 
 
 ```
 When starting work on a ticket, always pull the full details from Linear first.
-When opening a PR, check GitLab for related MRs on the same branch.
+When opening a MR, check GitLab for related MRs on the same branch.
 ```
 
 You can also chain tools together in a single prompt: "Pick up CORE-1294, read the full ticket, create a branch, and update the status to In Progress." That's Linear + git + Linear again, all from one ask.
