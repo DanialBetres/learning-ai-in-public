@@ -13,3 +13,4 @@ An honest diary of going AI-first as a developer. Starting from the basics and d
 | [Entry 4](entries/entry-004.md) | Superpowers - A Workflow That Actually Works | 2026-02-21 |
 | [Entry 5](entries/entry-005.md) | Small Wins and Tricks                        | 2026-02-23 |
 | [Entry 6](entries/entry-006.md) | Recovering a Lost Session                    | 2026-02-24 |
+| [Entry 7](entries/entry-007.md) | Better Notifications with /hooks             | 2026-02-24 |
