@@ -1,12 +1,12 @@
 ---
 layout: default
 title: "Entry 4: Superpowers - A Workflow That Actually Works"
-date: 2026-02-13
+date: 2026-02-21
 ---
 
 # Entry 4: Superpowers - A Workflow That Actually Works
 
-**Date:** 2026-02-13
+**Date:** 2026-02-21
 
 **TL;DR:** The Superpowers plugin gives Claude Code a structured development workflow - brainstorming, planning, execution with subagents, TDD, and code review. Pair it with detailed Linear tickets and it becomes a serious productivity loop.
 

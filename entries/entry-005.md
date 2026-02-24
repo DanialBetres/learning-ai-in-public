@@ -1,12 +1,12 @@
 ---
 layout: default
 title: "Entry 5: Small Wins and Tricks"
-date: 2026-02-13
+date: 2026-02-23
 ---
 
 # Entry 5: Small Wins and Tricks
 
-**Date:** 2026-02-13
+**Date:** 2026-02-23
 
 **TL;DR:** A few things I've picked up - saving context to a doc for later, using Claude to create Linear tickets from a design doc, and setting up a notification sound for when it's done working.
 
